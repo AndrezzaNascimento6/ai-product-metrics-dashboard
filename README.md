@@ -1,22 +1,22 @@
 # Product Signals
 
-Dashboard fictício em React + TypeScript, criado para captura de vídeo horizontal.
+A React + TypeScript dashboard with fictional data, designed for landscape video recording.
 
-## Executar
+## Run locally
 
 ```sh
 npm ci --cache /tmp/product-signals-npm
 npm run dev
 ```
 
-`npm run build` valida TypeScript e gera a versão de produção em `dist/`.
+`npm run build` checks TypeScript and generates the production build in `dist/`.
 
-## Gravação
+## Recording
 
-A composição mantém proporção 16:9 e cabe na janela sem scroll. O botão **Replay**, abaixo do quadro, reinicia a sequência de aproximadamente 7 segundos. Capture apenas o quadro para deixar o controle fora do vídeo. Ao terminar, a cena permanece no estado final.
+The composition maintains a 16:9 aspect ratio and fits within the window without scrolling. The **Replay** button below the frame restarts the approximately 7-second sequence. Capture only the frame to keep the control out of the video. Once the sequence ends, the scene stays in its final state.
 
-- 0–2s: inicialização, contagem e desenho do gráfico.
-- 2–4s: título e composição se estabilizam.
-- 4–7s: aproximação, foco nos sinais do Android e pergunta final.
+- 0–2s: initialization, number counters, and chart drawing.
+- 2–4s: the title and composition settle into place.
+- 4–7s: a closer view, emphasis on Android signals, and the final question.
 
-Os dados estão em `src/data.ts`, no objeto `productMetrics`. A série do gráfico é ilustrativa e normalizada (100 → 82); não representa uma taxa absoluta de conversão. Todos os dados são fictícios; não há backend, chamadas de IA ou credenciais.
+The data lives in `src/data.ts`, in the `productMetrics` object. The chart series is illustrative and normalized (100 → 82); it does not represent an absolute conversion rate. All data is fictional; there is no backend, no AI API calls, and no credentials are required.
