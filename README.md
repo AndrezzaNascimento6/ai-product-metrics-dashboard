@@ -1,4 +1,4 @@
-# Product Signals
+# AI Product Metrics Dashboard
 
 A React + TypeScript dashboard with fictional data, designed for landscape video recording.
 
